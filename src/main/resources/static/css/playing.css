@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    display: flex;
+    width: 80%;
+    height: 60%;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+.scoreboard {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.scoreboard.right {
+    border-right: none;
+    border-left: 1px solid #ccc;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drawing-area {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #eaeaea;
+}
+
+.drawing-area h2 {
+    margin: 0;
+}
